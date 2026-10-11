@@ -36,7 +36,8 @@ test('manifest is valid JSON with a kebab-case name and required metadata', () =
   assert.match(manifest.name, /^[a-z][a-z0-9-]*$/);
   for (const k of ['version', 'description']) assert.ok(manifest[k], k);
   assert.ok(manifest.author?.name);
-  assert.ok(!fs.readdirSync(path.join(PLUGIN_ROOT, '.claude-plugin')).some((f) => f !== 'plugin.json'), 'only plugin.json inside .claude-plugin/');
+  const meta = fs.readdirSync(path.join(PLUGIN_ROOT, '.claude-plugin'));
+  assert.ok(!meta.some((f) => !['plugin.json', 'icon.png'].includes(f)), 'only plugin.json and icon.png inside .claude-plugin/');
 });
 
 test('exactly the six entry points exist, as founder-invoked skills, with no commands/ duplicates', () => {

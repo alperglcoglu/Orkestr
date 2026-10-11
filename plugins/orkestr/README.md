@@ -16,7 +16,7 @@ All project state is stored as local files in a `.orkestr/` folder at the root o
 
 ## Cost notice (important)
 
-The plugin adds no paid services, APIs, MCP servers, or packages, and its scripts never touch the network. Automated tests enforce these rules.
+The plugin adds no paid services, APIs, MCP servers, or packages, and its scripts never touch the network. Automated tests enforce these rules. It sends no data anywhere and never reads credentials; its secret patterns exist only to redact secrets from its own records (see [Data and privacy](../../README.md#data-and-privacy)).
 
 **Even so, zero cost cannot be guaranteed.** Model usage depends on the account you use with Claude Code:
 
