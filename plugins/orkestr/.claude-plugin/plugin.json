@@ -6,5 +6,18 @@
   "author": {
     "name": "Alper Gulcuoglu"
   },
-  "keywords": ["planning", "meetings", "decisions", "tasks", "review", "local-first"]
+  "homepage": "https://github.com/alperglcoglu/orkestr",
+  "repository": "https://github.com/alperglcoglu/orkestr",
+  "documentationUrl": "https://github.com/alperglcoglu/orkestr/blob/main/plugins/orkestr/README.md",
+  "supportUrl": "https://github.com/alperglcoglu/orkestr/issues",
+  "privacyPolicyUrl": "https://github.com/alperglcoglu/orkestr#data-and-privacy",
+  "license": "MIT",
+  "keywords": [
+    "planning",
+    "meetings",
+    "decisions",
+    "tasks",
+    "review",
+    "local-first"
+  ]
 }
