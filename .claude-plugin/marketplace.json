@@ -1,0 +1,14 @@
+{
+  "name": "orkestr",
+  "description": "Marketplace for the Orkestr Claude Code plugin.",
+  "owner": {
+    "name": "Alper Gulcuoglu"
+  },
+  "plugins": [
+    {
+      "name": "orkestr",
+      "source": "./plugins/orkestr",
+      "description": "AI company workflows for a software project (local-first)."
+    }
+  ]
+}
